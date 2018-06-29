@@ -32,7 +32,6 @@ import java.util.Map;
 /**
  * API tests for DefaultApi
  */
-@Ignore
 public class DefaultApiTest {
 
     private final DefaultApi api = new DefaultApi();
@@ -431,9 +430,9 @@ public class DefaultApiTest {
      */
     @Test
     public void test2UsingGETTest() throws ApiException {
-        String p1 = null;
+        String p1 = "123";
         User response = api.test2UsingGET(p1);
-
+        System.out.println(response);
         // TODO: test validations
     }
     

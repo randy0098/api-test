@@ -53,7 +53,7 @@ import io.swagger.client.auth.OAuth;
 
 public class ApiClient {
   protected Map<String, String> defaultHeaderMap = new HashMap<String, String>();
-  protected String basePath = "https://localhost:8091";
+  protected String basePath = "http://localhost:8091";
   protected boolean debugging = false;
   protected int connectionTimeout = 0;
   private int readTimeout = 0;
