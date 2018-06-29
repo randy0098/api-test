@@ -1,4 +1,0 @@
-1.运行buildApiClient.bat中的命令，
-此命令会根据api-docs.json文件中API的接口配置自动生成API client相关类。
-
-2.参考自动生成的test类来使用Api client方法。
