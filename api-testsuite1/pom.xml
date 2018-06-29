@@ -25,8 +25,8 @@
 		</dependency>
 		<dependency>
 			<groupId>com.randy</groupId>
-			<artifactId>apiclient</artifactId>
-			<version>1.0</version>
+			<artifactId>api-client</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
