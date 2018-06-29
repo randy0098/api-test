@@ -24,7 +24,7 @@ import io.swagger.client.model.UserGroup;
 /**
  * User
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2018-06-29T18:21:08.489+08:00")
+
 public class User {
   @JsonProperty("age")
   private String age = null;

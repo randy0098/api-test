@@ -1,1 +1,1 @@
-java -jar swagger-codegen-cli-2.3.1.jar generate -i api-docs.json -l java -Dlibrary=jersey2 --group-id=com.randy --artifact-id=apiclient --artifact-version=1.0
+java -jar swagger-codegen-cli-2.3.1.jar generate -i api-docs.json -l java --group-id=com.randy --artifact-id=apiclient --artifact-version=1.0  -Dlibrary=jersey2 -DhideGenerationTimestamp=true
