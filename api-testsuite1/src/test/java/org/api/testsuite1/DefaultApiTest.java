@@ -27,6 +27,7 @@ import io.swagger.client.model.Person;
 import io.swagger.client.model.User;
 import io.swagger.client.model.UserGroup;
 
+
 /**
  * API tests for DefaultApi
  */
